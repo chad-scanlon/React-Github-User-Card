@@ -1,0 +1,35 @@
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.user-container {
+  border: solid blue 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 2%;
+}
+.user img {
+  width: 160px;
+}
+.follower-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.follower-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 62%;
+  /* border: solid black 2px; */
+  margin-bottom: 1%;
+}
+.follower img {
+  width: 300px;
+}
